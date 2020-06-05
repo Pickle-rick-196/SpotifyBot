@@ -32,4 +32,4 @@ class bot:
         time.sleep(100)
 
 if __name__ == "__main__":
-    BOT = bot("mickey123anime@gmail.com","9829096397")
+    BOT = bot("your email","your password")
