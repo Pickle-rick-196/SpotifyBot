@@ -3,17 +3,13 @@ from selenium import webdriver
 import os
 import time
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.chrome.options import Options
-
-Options = Options()
-Options.headless = True
 
 class bot:
     def __init__(self, username, password):
         self.username = username
         self.password = password
         self.base_url = 'https://open.spotify.com/'
-        self.bot = webdriver.Chrome("E:/chromedriver.exe", options = Options)
+        self.bot = webdriver.Chrome("E:/chromedriver.exe")
         self.play()
 
 
