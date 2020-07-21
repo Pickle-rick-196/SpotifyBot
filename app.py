@@ -9,7 +9,7 @@ class bot:
         self.username = username
         self.password = password
         self.base_url = 'https://open.spotify.com/'
-        self.bot = webdriver.Chrome("E:/chromedriver.exe")
+        self.bot = webdriver.Chrome("C:link//to//you//chromedriver.exe")
         self.play()
 
 
